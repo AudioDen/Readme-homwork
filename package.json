@@ -1,0 +1,22 @@
+{
+  "name": "readme-homework",
+  "version": "1.0.0",
+  "description": "read me generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AudioDen/Readme-homwork.git"
+  },
+  "author": "Dennis J. Irvin Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AudioDen/Readme-homwork/issues"
+  },
+  "homepage": "https://github.com/AudioDen/Readme-homwork#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
