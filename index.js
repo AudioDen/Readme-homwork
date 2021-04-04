@@ -76,10 +76,15 @@ function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log(responses);
     const answers = generateMarkdown(responses);
-   writeToFile("THIRDRUN.md",answers);
+   writeToFile("examplereadme.md",answers);
    
   });
 }
 
 // Function call to initialize app
 init();
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//CHANGE THE NAME OF THE FILE IN THE FORTH LINE OF THE INIT FUNCTION FOR YOUR README//
+//////////////////////////////////////////////////////////////////////////////////////
