@@ -69,8 +69,11 @@ function generateMarkdown(data) {
   ##  Questions
 
         Contact Information:
-        ${data.gituser}
-        ${data.email}
+        git hub user name: ${data.gituser}
+       
+        Any questions please contact via email.
+        ${data.contactauthor}
+        ${data.contactemail}
 `;
 }
 

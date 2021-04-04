@@ -28,22 +28,17 @@ const questions = [
   {
     type: "input",
     name: "test",
-    message: "how does the user run test?",
+    message: "How does the user run test?",
   },
   {
     type: "input",
     name: "contributors",
-    message: "who are the contributors to this project?",
+    message: "Who are the contributors to this project?",
   },
   {
     type: "input",
     name: "gituser",
-    message: "what ios your github user name?",
-  },
-  {
-    type: "input",
-    name: "email",
-    message: "What is your email address?",
+    message: "What is your github user name?",
   },
   {
     type: "list",
@@ -55,7 +50,17 @@ const questions = [
       "The Do What the F You Want to Public License",
       "NONE",
     ],
-    message: "what license does the user need",
+    message: "what license does the user need?",
+  },
+  {
+    type: "input",
+    name: "contactauthor",
+    message: "Who is contact for questions regarding this project?",
+  },
+  {
+    type: "input",
+    name: " contactemail",
+    message: "What is contact email address?",
   },
 ];
 
@@ -68,7 +73,6 @@ function writeToFile(fileName, data) {
      return  console.log("readMe was Created");
     }
   });
-  
 }
 
 // TODO: Create a function to initialize app
