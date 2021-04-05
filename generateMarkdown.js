@@ -24,7 +24,26 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  if (license == "MIT") {
+    return "(https://opensource.org/licenses/MIT)"
+  }
+  else if (license == "Apache 2.0 License") {
+    return "(https://opensource.org/licenses/Apache-2.0)"
+  }
+  else if (license == "Eclipse Public License 2.0") {
+    return "(https://opensource.org/licenses/EPL-2.0)"
+  }
+  else if (license == "Attribution-NonCommmercial-ShareAlike 4.0 International") {
+    return "(https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+  }
+  else if (license == "The Do What the F You Want to Public License") {
+    return "(http://www.wtfpl.net/about/)"
+  }
+  else {
+    return "No license needed"
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -33,6 +52,7 @@ function renderLicenseSection(license) { }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
 
   ##  Table of contents.
 
@@ -40,7 +60,7 @@ function generateMarkdown(data) {
    
   -*- [Usage](#Usage)
 
-  -*- [Install](#Install)
+  -*- [Installation](#Installation)
 
   -*- [License](#License)
   
@@ -52,28 +72,33 @@ function generateMarkdown(data) {
 
 
   ##  Discription
-  ${data.discrpt}
+    ${data.discrpt}
 
   ##  Usage
-  ${data.usage}
+    ${data.usage}
+
+  ##  Installation
+    ${data.install}
 
   ##  License
-  ${renderLicenseBadge(data.license)}
+  Follow the link below for license info.
+
+  ${renderLicenseLink(data.license)}
 
   ##  Contributors
-  ${data.contributors}
+    ${data.contributors}
 
   ##  Test
-  ${data.test}
+    ${data.test}
   
   ##  Questions
-
-        Contact Information:
-        git hub user name: ${data.gituser}
-       
-        Any questions please contact via email.
-        ${data.contactauthor}
-        ${data.contactemail}
+  Contact Information:
+  ${data.gituser}
+  [Github](http://github.com/${data.gituser})   
+  Any questions please contact ${data.contactauthor} via email.
+  ${data.contactemail}
+  
+  
 `;
 }
 
