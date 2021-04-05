@@ -1,4 +1,5 @@
-# Read Me Generator
+# README GENERATOR
+  NO LICENSE NEEDED
 
   ##  Table of contents.
 
@@ -6,7 +7,7 @@
    
   -*- [Usage](#Usage)
 
-  -*- [Install](#Install)
+  -*- [Installation](#Installation)
 
   -*- [License](#License)
   
@@ -18,22 +19,31 @@
 
 
   ##  Discription
-  This is a Node.js project to generate a README.md file.
+    This is a node.js project for a developer to use from the terminal command line to generate a Readme file.
 
   ##  Usage
-  Anytime user would need a readme.
+    This project is used to generate a Readme file.
+
+  ##  Installation
+    To install download files and install npm packages then run node.js in the terminal.
 
   ##  License
-  NO LICENSE NEEDED
+  Follow the link below for license info.
+
+  No license needed
 
   ##  Contributors
-  Dennis J. Irvin jr. 
+    Dennis J. Irvin jr.
 
   ##  Test
-  There are no test.
+    There are no test
+    Be sure to change the name of the file to README.md in the init function in the index.js
   
   ##  Questions
-
-        Contact Information:
-        AudioDen
-        chicagosoundman@gmail.com
+  Contact Information:
+  AudioDen
+  [Github](http://github.com/AudioDen)   
+  Any questions please contact Dennis J. Irvin jr. via email.
+  chicagosoundman@gmail.com
+  
+  
