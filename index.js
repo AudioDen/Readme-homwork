@@ -59,7 +59,7 @@ const questions = [
   },
   {
     type: "input",
-    name: " contactemail",
+    name: "contactemail",
     message: "What is contact email address?",
   },
 ];
