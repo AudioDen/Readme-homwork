@@ -56,7 +56,7 @@ function generateMarkdown(data) {
 
   ##  Table of contents.
 
-  -*- [Discription](#Discription)
+  -*- [Description](#Description)
    
   -*- [Usage](#Usage)
 
@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   -*- [Questions](#Questions) 
 
 
-  ##  Discription
+  ##  Description
     ${data.discrpt}
 
   ##  Usage

@@ -3,7 +3,7 @@
 
   ##  Table of contents.
 
-  -*- [Discription](#Discription)
+  -*- [Description](#Description)
    
   -*- [Usage](#Usage)
 
@@ -18,7 +18,7 @@
   -*- [Questions](#Questions) 
 
 
-  ##  Discription
+  ##  Description
     This is a node.js project for a developer to use from the terminal command line to generate a Readme file.
 
   ##  Usage
